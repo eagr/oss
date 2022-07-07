@@ -1,7 +1,7 @@
 ## Init
 
 * CLI
-    * [ ] everyday events logger
+    * [x] [chronicle](https://github.com/eagr/chronicle) scribble personal chronicle from cli
 * concurrency
     * [ ] [Junction](https://github.com/preshing/junction)
 * DevTool
