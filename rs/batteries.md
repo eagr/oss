@@ -1,21 +1,27 @@
-**primitive**
-* [anyhow](https://crates.io/crates/anyhow) traits for better error handling
-* [bytes](https://crates.io/crates/bytes) traits for bytes
-* [chrono](https://crates.io/crates/chrono) lib for data/time
-* [env_logger](https://crates.io/crates/env_logger) logger configured via env variable
-* [log](https://crates.io/crates/log) logging facade
+## primitive
+
+* [anyhow](https://crates.io/crates/anyhow) easy error handling
+* [bytes](https://crates.io/crates/bytes)
+* [chrono](https://crates.io/crates/chrono) date/time
+* [env_logger](https://crates.io/crates/env_logger) ENV configured logger
+* [log](https://crates.io/crates/log)
 * [rand](https://crates.io/crates/rand)
 * [regex](https://crates.io/crates/regex)
+
+## cli
+
+* [clap](https://crates.io/crates/clap) all-in-one CLI parser
+
+## fs
+
+* [tempfile](https://crates.io/crates/tempfile) safe fire-and-forget tmp files
+
+## parsing
+
 * [serde](https://crates.io/crates/serde) de/serialization framework
+* [toml](https://crates.io/crates/toml) de/serialize TOML
 
-**Web**
-* [tokio](https://crates.io/crates/tokio) runtime for non-blocking I/O
-* [http](https://crates.io/crates/http) lib for constructing HTTP requests and responses
-* [hyper](https://crates.io/crates/hyper) low-level building block for HTTP applications
-* [reqwest](https://crates.io/crates/reqwest) lib for building HTTP client
-* [warp](https://crates.io/crates/warp) lib for building HTTP server
+## networking
 
-**CLI**
-* [clap](https://crates.io/crates/clap) command-line parser
-* [tempfile](https://crates.io/crates/tempfile) lib for managing temporary files
-* [walkdir](https://crates.io/crates/walkdir) walk dir recursively
+* [tokio](https://crates.io/crates/tokio) runtime for async I/O
+* [hyper](https://crates.io/crates/hyper) building block for HTTP applications
